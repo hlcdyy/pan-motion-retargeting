@@ -1,5 +1,5 @@
 # pan-motion-retargeting
-Official implementation for the paper "Pose-aware Attention Network for Flexible Motion Retargeting by Body Part"
+Official implementation for the paper ["Pose-aware Attention Network for Flexible Motion Retargeting by Body Part"](https://ieeexplore.ieee.org/document/10129844)
 
 Please visit our [webpage](https://hlcdyy.github.io/) for more details.
 
