@@ -1,9 +1,9 @@
-# pan-motion-retargeting
+![image](https://github.com/hlcdyy/pan-motion-retargeting/assets/43291543/28302121-733d-47e3-8201-9460c22cd077)# pan-motion-retargeting
 Official implementation for the paper ["Pose-aware Attention Network for Flexible Motion Retargeting by Body Part"](https://ieeexplore.ieee.org/document/10129844)
 
-Please visit our [webpage](https://hlcdyy.github.io/) for more details.
+Please visit our [webpage](https://hlcdyy.github.io/pan-motion-retargeting/) for more details.
 
-![hum2dog](https://raw.githubusercontent.com/hlcdyy/hlcdyy.github.io/main/static/hum2dog.gif)
+![hum2dog](https://raw.githubusercontent.com/hlcdyy/pan-motion-retargeting/pan-page/static/hum2dog.gif)
 
 ## Getting started 
 This code was tested on `Ubuntu 18.04.4 LTS` and requires:
