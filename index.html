@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<!-- this html is inspired by  https://xbpeng.github.io/projects/ASE/index.html -->
+
+<head>
+    <title>Pose-aware Attention Network for Flexible Motion Retargeting by Body Part</title>
+
+    <style>
+        .div-plain {
+            padding-right: 15%;
+            padding-left: 15%;
+            font-size: medium;
+        }
+        .div-grey {
+            padding-left: 5%;
+            /* padding-right: 5%; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: medium;
+            background-color: #f2f2f2;
+        }
+        
+    </style>
+
+    
+</head>
+
+<body>
+
+    <div class="div-plain">
+    <center>
+            <h1>Pose-aware Attention Network for Flexible Motion Retargeting by Body Part</h1>
+    </center>
+        <td>
+            <center>
+                Transactions on Visualization and Computer Graphics (TVCG 2023)<br>
+                <br>
+                <nobr> <a>Lei Hu†</a> (1,2)</nobr>&emsp;&emsp; <nobr> <a href='http://zihaozhang.tech/'>Zihao Zhang†</a>
+                    (1)</nobr> &emsp;&emsp; <nobr> <a>Chongyang Zhong</a>
+                    (1,2)</nobr>
+                &emsp;&emsp;  <nobr> <a>Boyuan Jiang</a>
+                    (1,2)</nobr> &emsp;&emsp; <nobr><a href='https://people.ucas.ac.cn/~xiashihong'>Shihong Xia*</a> (1,2)</nobr> <br>
+                <br>
+                <nobr>(1) Institute of Computing Technology, Chinese Academy of Sciences </nobr><br>
+                <nobr>(2) University of Chinese Academy of Sciences </nobr><br>
+                <nobr>† indicates equal contributions and * represents the corresponding author</nobr><br>
+                <br>
+                <img style="vertical-align:middle" src="static/teaser.png" width="100%" height="inherit" />
+            </center>
+        </td>
+
+        <br>
+
+        <td>
+            <hr>
+            <h3 style="margin-bottom:10px;">Abstract</h3>
+            Motion retargeting is a fundamental problem in computer graphics and computer vision. Existing approaches usually have 
+            many strict requirements, such as the source-target skeletons needing to have the same number of joints or share the same topology. 
+            To tackle this problem, we note that skeletons with different structure may have some common body parts despite the differences in 
+            joint numbers. Following this observation, we propose a novel, flexible motion retargeting framework. The key idea of our method is to 
+            regard the body part as the basic retargeting unit rather than directly retargeting the whole body motion. To enhance the spatial 
+            modeling capability of the motion encoder, we introduce a pose-aware attention network (PAN) in the motion encoding phase. The PAN 
+            is pose-aware since it can dynamically predict the joint weights within each body part based on the input pose, and then construct a 
+            shared latent space for each body part by feature pooling. Extensive experiments show that our approach can generate better motion 
+            retargeting results both qualitatively and quantitatively than state-of-the-art methods. Moreover, we also show that our framework can 
+            generate reasonable results even for a more challenging retargeting scenario, like retargeting between bipedal and quadrupedal 
+            skeletons because of the body part retargeting strategy and PAN.
+        </td>
+
+        <td>
+            <h3> Paper: [<nobr><a href="https://ieeexplore.ieee.org/document/10129844">IEEE Xplore</a> | <a href="static/pan_paper.pdf">PDF</a>]</nobr>
+                &nbsp; &nbsp; &nbsp; Video: [<nobr><a 
+                                        href="https://youtu.be/oTAcxTtPXUg">YouTube</a> | <a 
+                                        href="https://www.bilibili.com/video/BV1bg4y1V7Xi/">Bilibili</a>]</nobr>
+                &nbsp; &nbsp; &nbsp; Code: [<nobr><a 
+                                        href="https://github.com/hlcdyy/pan-motion-retargeting">Github</a>]
+            </h3>
+        </td>
+
+
+        <br>
+        <br>
+    </div>
+  
+    <div class = "div-plain">
+    <div class="div-grey" >
+        <td>
+            <p style="font-size:large;">
+                Intra-Structural retargeting between characters in Mixamo:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/intral.gif" width="40%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Cross-Structural retargeting between characters in Mixamo:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/cross.gif" width="29%"
+                        height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Motion retargeting from biped to quadruped:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/hum2dog.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Motion retargeting from quadruped to biped:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/dog2hum.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        
+
+    </div>
+    </div>
+    
+    <div class = "div-plain">
+     <br>
+     <td>
+            <hr>
+            <h3 style="margin-bottom:10px;">Citation</h3>
+         <pre><code>
+    @article{hu2023pose,
+            title={Pose-Aware Attention Network for Flexible Motion Retargeting by Body Part},
+            author={Hu, Lei and Zhang, Zihao and Zhong, Chongyang and Jiang, Boyuan and Xia, Shihong},
+            journal={IEEE Transactions on Visualization and Computer Graphics},
+            year={2023},
+            publisher={IEEE}
+            }
+        </code></pre>
+       </td>
+    </div>
+    
+  
+</body>
+
+</html>
