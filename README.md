@@ -74,7 +74,7 @@ You can also download our preprocessed data from [Google Drive](https://drive.go
 
 **Model for retargeting between Mixamo characters**
 
-Download the models from [hear](https://drive.google.com/file/d/1jYtOLCDye68nShXNlse-I5hCe7ZAHaG-/view?usp=sharing) and unzip the file in the workspace of this project by following command:
+Download the models from [here](https://drive.google.com/file/d/1jYtOLCDye68nShXNlse-I5hCe7ZAHaG-/view?usp=sharing) and unzip the file in the workspace of this project by following command:
 ````
 unzip pretrained_mixamo.zip
 ````
@@ -90,7 +90,7 @@ Eventually the `./pretrained_mixamo` folder should have the following structure:
 
 **Model for retargeting between biped and quadruped**
 
-Download the models from [hear](https://drive.google.com/file/d/1p-fDC9nIuqktVaqxcAr4wSa09mGq1_63/view?usp=sharing) and unzip the file by following command:
+Download the models from [here](https://drive.google.com/file/d/1p-fDC9nIuqktVaqxcAr4wSa09mGq1_63/view?usp=sharing) and unzip the file by following command:
 
 ````
 unzip pretrained_lafan1dog.zip
